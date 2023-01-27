@@ -1,0 +1,235 @@
+a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#about {
+  padding-right: 1rem;
+}
+
+body {
+  margin: 0;
+}
+
+#contact {
+  padding-left: 1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  border-bottom: solid #e5e5e5 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+  border-bottom: solid #e5e5e5 0.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#search {
+  border: 0;
+  width: 3.5rem;
+}
+
+#search-icon {
+  width: 1.3rem;
+  padding-right: 2rem;
+}
+
+#title {
+  font-family: "Great Vibes", cursive;
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: block;
+  }
+  .container div {
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+  .content {
+    padding: 0rem;
+  }
+  .container1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .container1 img {
+    height: 100%;
+    max-width: 100%;
+  }
+  nav {
+    display: block;
+    padding-left: 2rem;
+  }
+  nav a {
+    display: block;
+  }
+  .wrapper {
+    display: block;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container div {
+    height: 10rem;
+  }
+  nav {
+    display: block;
+    padding-left: 2rem;
+  }
+  nav a {
+    display: block;
+  }
+  .content {
+    padding: 0rem;
+  }
+  .container1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .container1 img {
+    height: 100%;
+    max-width: 100%;
+  }
+  .wrapper {
+    display: block;
+  }
+}
+@media screen and (min-width: 769px) {
+  .container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container div {
+    height: 20rem;
+  }
+  .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container1 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .container1 img {
+    height: 25rem;
+  }
+  .wrapper {
+    display: flex;
+  }
+}
+#active {
+  font-weight: bold;
+}
+
+.caption {
+  background-color: hsla(0deg, 0%, 0%, 0.5);
+  color: white;
+  margin: 0px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.container {
+  gap: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.container div {
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-flow: column-reverse;
+  text-align: center;
+  width: 100%;
+}
+
+.container1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container2 {
+  font-size: 1.5rem;
+  padding: 5rem;
+  text-align: center;
+}
+.container2 img {
+  width: 100%;
+}
+.container2 h4 {
+  margin: 0px;
+}
+
+.content {
+  align-items: center;
+  display: inline-block;
+}
+
+#cake {
+  background-image: url(cake.jpg);
+}
+
+#coctails {
+  background-image: url(coctails.jpg);
+}
+
+#hamburger {
+  background-image: url(hamburger.jpg);
+}
+
+#landscape {
+  height: 18rem;
+}
+
+#pasta {
+  background-image: url(pasta.jpg);
+}
+
+#pancakes {
+  background-image: url(pancakes.jpg);
+}
+
+#pizza {
+  background-image: url(pizza.jpg);
+}
+
+#porridge {
+  background-image: url(porridge.jpg);
+}
+
+#salad1 {
+  background-image: url(salad1.jpg);
+}
+
+#salad2 {
+  background-image: url(salad2.jpg);
+}/*# sourceMappingURL=style.css.map */

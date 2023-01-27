@@ -1,0 +1,62 @@
+a {
+    color:black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#about {
+    padding-right:1rem;
+}
+
+body {
+    margin:0;
+}
+
+#contact {
+    padding-left:1rem
+}
+
+footer {
+    background-color:black ;
+    color:white;
+   height: 5rem;
+   margin-top: 1.5rem;
+   padding-top:1.5rem;
+   text-align: center;
+    width: 100%;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    }
+
+header {
+    border-bottom:solid #e5e5e5 0.2rem; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    align-items: center;
+    border-bottom: solid #e5e5e5 0.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#search {
+    border:0;
+    width: 3.5rem;
+}
+
+#search-icon {
+    width: 1.3rem;
+    padding-right:2rem;
+}
+
+#title {
+    font-family: 'Great Vibes', cursive;
+    padding-left: 2rem;
+}

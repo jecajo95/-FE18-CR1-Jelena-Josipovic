@@ -1,0 +1,95 @@
+@import "shared";
+@import "media";
+
+#active {
+  font-weight: bold;
+}
+
+.caption {
+  background-color: hsla(0 0% 0% / 0.5);
+  color: white;
+  margin: 0px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.container {
+  gap: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+
+  div {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-flow: column-reverse;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.container1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container2 {
+  font-size: 1.5rem;
+  padding: 5rem;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+  h4 {
+    margin: 0px;
+  }
+}
+
+.content {
+  align-items: center;
+  display: inline-block;
+}
+
+// image containers
+
+#cake {
+  background-image: url(cake.jpg);
+}
+
+#coctails {
+  background-image: url(coctails.jpg);
+}
+
+#hamburger {
+  background-image: url(hamburger.jpg);
+}
+
+#landscape {
+  height: 18rem;
+}
+
+#pasta {
+  background-image: url(pasta.jpg);
+}
+
+#pancakes {
+  background-image: url(pancakes.jpg);
+}
+
+#pizza {
+  background-image: url(pizza.jpg);
+}
+
+#porridge {
+  background-image: url(porridge.jpg);
+}
+
+#salad1 {
+  background-image: url(salad1.jpg);
+}
+
+#salad2 {
+  background-image: url(salad2.jpg);
+}
